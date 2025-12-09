@@ -1,0 +1,37 @@
+form input[type="text"], form input[type="password"] {
+  width: 200px;
+  height: 28px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+header {
+  font-size: 30px;
+  color: #6200ff;
+  color: #fd0000;
+  font-family: Blackadder ITC;
+  font-weight: bold;
+}
+
+form input[type="text"] {
+  border-color: #ec5012;
+}
+
+form input[type="password"] {
+  border-color: #01010f;
+}
+
+html {
+  background-color: rgba(0, 183, 255, 0.199);
+  padding: 200px;
+}
+
+table {
+  width: 700px;
+  height: 300px;
+}
+
+thead {
+  background-color: #b0b0b0;
+}

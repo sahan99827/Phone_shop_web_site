@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Sass
+        </title>
+       <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="button.css">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js"></script>
+         -->
+    <!-- <script>
+        function mySubmit(obj) {
+            var pwdObj = document.getElementById('pass');
+            var hashObj = new jsSHA("SHA-512", "TEXT", {numRounds: 1});
+            hashObj.update(pwdObj.value);
+            var hash = hashObj.getHash("HEX");
+            pwdObj.value = hash;
+            console.log(hash);
+          }
+    </script> -->
+    </head>
+<body>
+    <center>
+        <table>
+        <thead style=" background-color: #b0b0b0; ">
+                <tr>
+                    <th>
+                        <header>
+                            <h1>Well Come Login Page</h1>
+                        </header>
+                            <main>
+                              <!-- <form onSubmit="return false"  enctype="multipart/form-data"> -->
+                                <form action="login.php" method="post" enctype="multipart/form-data">
+                                user name: <input type="text" id="user" name="user" placeholder="user Name" /><br /><br />
+                                password: <input type="password" id="pass"  name="pass" placeholder="Password" /><br /><br />
+                                <input type="submit" onclick="mySubmit(this)" id="formbuttons" value="Login" />
+                                <input type="reset" id="formbuttons1" value="Reset" />
+                              </form>
+                            </main>
+                    </th>
+                   
+                </tr>
+            </thead>       
+    </table>
+    </center>
+  
+</body>
+</html>

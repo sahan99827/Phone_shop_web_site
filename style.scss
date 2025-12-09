@@ -1,0 +1,55 @@
+$Font-family:Blackadder ITC;
+$Font-family2:Cooper rgb(13, 243, 52);
+$stye:bold;
+
+%formFiledStyle{
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+@mixin text-style($size) {
+    font-size: $size;
+    @if $size > 20px{
+        color: rgb(98, 0, 255);
+    } 
+     @else if $size == 20px{
+        color:green;
+    }@else{
+        color:rgba(134, 3, 3, 0.534);
+    }
+}
+header{
+    @include text-style(30px);
+    color: rgb(253, 0, 0);
+    font-family: $Font-family;
+    font-weight: $stye;
+}
+
+form{
+    input[type="text"]{
+        @extend %formFiledStyle;
+        border-color: rgb(236, 80, 18);
+        
+    }
+    input[type="password"]{
+        @extend %formFiledStyle;
+        border-color: rgb(1, 1, 15);
+    }
+    
+}
+html{
+    background-color: rgba(0, 183, 255, 0.199);
+    padding: 200px;
+    
+  }
+table{
+    width: 700px;
+    height: 300px;
+}
+thead{
+    
+    background-color: 	#b0b0b0;
+}

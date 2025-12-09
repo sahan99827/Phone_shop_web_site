@@ -1,0 +1,35 @@
+body{
+	padding: 0px;
+	
+}
+.thumb-image{
+	width: 50px;
+}
+.thumb2-image{
+	width: 120px;
+}
+	
+		img-cls{
+				margin-top : 50px;
+				width : 300px ; 
+		}
+		#d1 { 	position : relative;
+				margin-left : 100px;
+				margin-top : -150px;
+
+				
+			}
+		#d2 { 	position : relative;
+				margin-left : 600px;
+				margin-top : -150px;
+				}
+		#d1 p { position : absolute;
+				margin-top : -150px;
+				margin-left : 200px;
+				width : 150px
+			}
+		#d2 p{ position : absolute;
+				margin-top : -150px;
+				margin-left : 200px;
+				width : 150px 
+			}
